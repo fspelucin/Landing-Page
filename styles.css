@@ -2,27 +2,43 @@
 
 *{
   font-family: "Roboto"; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
 }
 
 body {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .header-container{
   background-color: #1F2937; 
+  color: #F9FAF8; 
+  padding: 20px 0; 
+  display: flex;
+  justify-content: space-around;  
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
 }
 
 .content-container{
   background-color: #1F2937;
+  color: #F9FAF8; 
+  padding: 20px 0; 
+  flex: 1; 
 }
 
 .information-container{
-
+  flex: 1;
 }
 
 .quote-container{
   background-color: #E5E7EB; 
+  flex: 1; 
 }
 
 .footer-container{
