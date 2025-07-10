@@ -123,8 +123,12 @@ body {
 .footer-container{
   background-color: #1F2937;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer{
   margin: auto 48px;
+  color: #F9FAF8;
 }
