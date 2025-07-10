@@ -4,43 +4,96 @@
   font-family: "Roboto"; 
   margin: 0;
   padding: 0;
-  box-sizing: border-box; 
 }
 
 body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh; 
 }
 
 .header-container{
   background-color: #1F2937; 
-  color: #F9FAF8; 
-  padding: 20px 0; 
   display: flex;
+  flex: 1;
   justify-content: space-around;  
 }
 
 .header{
   display: flex;
+  flex: 1; 
+  margin: auto 48px; 
+  justify-content: space-between;
+  align-items: center;  
+  color: #F9FAF8; 
+}
+
+.header_logo{
+  font-size: 24px;
+  color: #F9FAF8;
+
+}
+
+.links{
+  display: flex; 
+  gap: 25px; 
   justify-content: space-between;
 }
 
 .content-container{
   background-color: #1F2937;
   color: #F9FAF8; 
-  padding: 20px 0; 
+  display: flex;
+  flex: 4;
+  padding: 48px;
+  border: 1px solid blue; 
+  justify-content: space-between; 
+}
+
+.left{
+  flex:1; 
+}
+
+.rigth{
   flex: 1; 
+  width: 50%; 
+  border: 1px solid red; 
+}
+
+.placeholder{
+
 }
 
 .information-container{
-  flex: 1;
+  flex: 4; 
+}
+
+.information{
+  margin: auto 48px;
 }
 
 .quote-container{
   background-color: #E5E7EB; 
-  flex: 1; 
+  flex: 3; 
+}
+
+.quote{
+  margin: auto 48px;
+}
+
+.signup-container{
+  flex: 2;   
+}
+
+.signup{
+  margin: auto 48px; 
 }
 
 .footer-container{
   background-color: #1F2937;
+  flex: 1;
+}
+
+.footer{
+  margin: auto 48px;
 }
